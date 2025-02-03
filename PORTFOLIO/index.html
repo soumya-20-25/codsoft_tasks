@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Comtible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO-SOUMYA</title>
+  <link rel="stylesheet" href="style.css"> 
+  <script src="https://kit.fontawesome.com/435a12bb21.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.png" class="logo">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p class="Developer">Front-End Developer</p>
+        <h1>Hi! It's <span>Soumya</span><br> Priyadarsani Panda.</h1>
+      </div>
+    </div>
+  </div>
+<!------------------------ABOUT-------------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="me-22.png" class="image">
+        </div>
+        <div class="about-col-2">
+          <h1 class="me--">About Me</h1>
+          <p>Hi! I'm <strong>Soumya</strong>, a passionate <strong>Front-End Developer</strong> with a keen eye for crafting engaging and user-friendly web experiences. Currently pursuing my BSc. in <strong>Information Technology and Management</strong> at BJB College, I specialize in building responsive, modern, and intuitive web interfaces.
+            With a strong foundation in HTML, CSS, and JavaScript, I love turning creative ideas into functional and visually appealing websites. I'm always eager to learn and stay updated with the latest web technologies to enhance user experience.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab(event, 'skills')">Skills</p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+              <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+            </div>
+            <div class="tab-contents active-tabs" id="skills">
+              <ul>
+                <li><span>Web Development</span><br>Designing and developing Web app interfaces</li>
+                <li><span>UI/UX</span><br>Creating user-centered designs for digital products as websites, mobile apps, etc...</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>05-Jan-2025 to 05-Feb-2025</span><br>Internship at CodSoft in Web Development</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020-2022</span><br>Shailabala Women's Higher Secondary School<br>Higher secondary Education</li>
+                <li><span>2022-2025</span><br>Buxi Jagabandhu Bidadhara Autonomous College<br>Graduation in BSc. Information Technology and Management</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!----------------------------------------SERVICES-------------------------------------------->
+
+  <div id="services">
+    <div class="container">
+      <h1 class="me--">My Services</h1>
+       <div class="services-list">
+        <div>
+          <i class="fa-solid fa-desktop"></i>
+          <h2>Web Design</h2>
+          <p>I create beautiful, user-friendly websites that enhance digital experiences.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+         <i class="fa-solid fa-palette"></i>
+         <h2>Landing Page Design</h2>
+          <p>Building high-converting pages for businesses & portfolios.</p>
+         <a href="#">Learn more</a>
+        </div>
+      </div>
+     </div>
+  </div>
+
+<!------------------------------------------PORTFOLIO-------------------------------------->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="me--">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <i class="fa-solid fa-utensils icon"></i>
+            <h2>Landing Page</h2>
+            <p>Developed a fully responsive food website called "Mama's Kitchen", with optimized performance, interactive elements, and smooth animations, using HTML, CSS, and JavaScript.</p>
+            <a href="#"><i class="fa-solid fa-link"></i>Learn More</a>
+          </div>
+          <div class="work">
+          <i class="fa-solid fa-calculator icon"></i>
+          <h2>Calculator</h2>
+          <p>Using HTML, CSS and JavaScript, built a fully functional calculator with theme-switching, responsive design, and smooth JavaScript-based calculations.</p>
+          <a href="#" ><i class="fa-solid fa-link"></i>Learn More</a>
+        </div>
+      </div>
+      <a href="#" class="btn">See More...</a>
+    </div>
+  </div>
+  <!----------------------------------CONTACT---------------------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="me--">Contact Me</h1>
+          <p><i class="fa-regular fa-paper-plane"></i>soumyapriyadarsani05@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>+91 70087 18463</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/_soumya_priyadarsani_/?igsh=amM2MzB5M3hlNDJy"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/soumya-priyadarsani-panda-4759272a6"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/Soumya_00097?s=09"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          </div>
+          <a href="SOUMYA PRIYADARSANI PANDA.pdf" download class="CV">Download CV</a>
+        </div>
+        <div class="contact-right"></div>
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="sub-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="copyright">
+      &#169; 2025 Soumya. All Rights Reserved. 
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
