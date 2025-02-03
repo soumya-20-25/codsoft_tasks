@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama's Kitchen</title>
+    <script src="https://kit.fontawesome.com/435a12bb21.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="top">
+      <div class="logo">Mama's Kitchen</div>
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Location</a>
+        <a href="#">Contact</a>
+      </div>
+        
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bars"></i> 
+      </div>
+    </div>
+
+    <div class="heading">
+      <div class="left">
+        <p>Craving Something Spicy & Tangy &#129316; ?</p>
+        <h1>What are you waiting for ?</h1>
+        <p>Good food is all that sweet, when shared with friends and family.</p>
+        <button class="check">Check out Menu</button>
+        <button class="order">Order now</button>
+      </div>
+
+    
+     <div class="right" id="food"></div>
+
+     <div class="socialmedia">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/_soumya_priyadarsani_/?igsh=amM2MzB5M3hlNDJy"><i class="fa-brands fa-instagram"></i></a>  
+      <a href="https://x.com/Soumya_00097?s=09"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>   
+     </div>
+    </div>
+
+    <div class="bottom">
+      <div class="Menu">
+        <div id="food1"></div>
+        <div id="food2"></div>
+        <div id="food3"></div>
+        <div id="food4"></div>
+        <div id="food5"></div>
+      </div>
+    </div>
+    <script>
+      let food1s = document.getElementById('food1');
+      let food2s = document.getElementById('food2');
+      let food3s = document.getElementById('food3');
+      let food4s = document.getElementById('food4');
+      let food5s = document.getElementById('food5');
+      let foods = document.getElementById('food');
+
+      food1s.addEventListener('click', ()=>{
+        foods.style.backgroundImage = "url('chaat.jpg')";
+      })
+
+      food2s.addEventListener('click', ()=>{
+        foods.style.backgroundImage = "url('dosa.jpg')";
+      })
+
+      food3s.addEventListener('click', ()=>{
+        foods.style.backgroundImage = "url(samosaa.jpg)";
+      })
+
+      food4s.addEventListener('click', ()=>{
+        foods.style.backgroundImage = "url(pav.jpg)";
+      })
+
+      food5s.addEventListener('click', ()=>{
+        foods.style.backgroundImage = "url(Idly.jpg)";
+      })
+    </script>
+  </body>
+</html>
